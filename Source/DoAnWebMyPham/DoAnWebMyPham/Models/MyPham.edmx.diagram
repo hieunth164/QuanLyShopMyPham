@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f5425985d09b405bb7c0b8322ba79fd4" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.CT_HoaDon" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.CT_PhieuNhap" Width="1.5" PointX="8.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.HoaDon" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.KhachHang" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.LoaiHang" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.LoaiNhanVien" Width="1.5" PointX="1.5" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.ManHinh" Width="1.5" PointX="1.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.NhaCungCap" Width="1.5" PointX="3.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.NhanVien" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.PhanQuyen" Width="1.5" PointX="3.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.PhieuNhap" Width="1.5" PointX="6" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.SanPham" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ShopMyPhamModel1.ThuongHieu" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_CTHD_HD" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_CTHD_MH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_CTPN_PN" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_CTPN_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_HD_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_HD_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_MH_LH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_NV_LNV" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_PQ_LNV" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_PQ_MH" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_PN_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_PN_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ShopMyPhamModel1.FK_MH_TH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
